@@ -2,10 +2,26 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { AboutComponent } from './about/about.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { SkillsComponent } from './skills/skills.component';
+import { WorkComponent } from './work/work.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    ProfilePageComponent,
+    AboutComponent,
+    TimelineComponent,
+    SkillsComponent,
+    WorkComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
