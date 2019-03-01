@@ -8,11 +8,13 @@
     cursor: pointer;
 }
 .active{
-   border-bottom: 1px solid
+   border-bottom: 1px solid;
+   color: black;
+   cursor: pointer;
 }
 .options-container{
     width:80%;
-    margin: 100px auto;
+    margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -20,4 +22,15 @@
     font-family: sans-serif;
     font-weight: lighter;
     letter-spacing: 10px;
+    color: silver;
+}
+h4{
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+.heading-container{
+    text-align: center;
+
 }

@@ -14,4 +14,8 @@ export class SkillsComponent implements OnInit {
   SwitchActive(){
     this.toggle = true;
   }
+  toggleActive(){
+
+    return "{'option': true, 'active': "+ this.toggle +"}"
+  }
   }

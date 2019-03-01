@@ -10,6 +10,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { WorkComponent } from './work/work.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { SkillsChartComponent } from './skills-chart/skills-chart.component';
+import { SkillsTechnologyStackComponent } from './skills-technology-stack/skills-technology-stack.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     WorkComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    SkillsChartComponent,
+    SkillsTechnologyStackComponent
   ],
   imports: [
     BrowserModule

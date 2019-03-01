@@ -1,7 +1,13 @@
+<div class="heading-container">
+  <h4>SKILLS</h4>
+</div>
+
 <div class = "options-container" >
-  <div  class = "option" (click)="SwitchActive()" [ngClass]="{'active' : toggle}" >LANGUAGES</div>
-  <button class = "option">DEV-EXP</button>
-  <button class = "option">TECHNOLOGY-STACK</button>
+   <div  class = "option active" (click)="SwitchActive()" >LANGUAGES</div> 
+  <!-- <div  [ngClass]="toggleActive()">LANGUAGES</div> -->
+  <!-- <div [ng-class]="{'option' : true, 'active' : true}">LANGUAGES</div> -->
+  <div class = "option">DEV-EXP</div>
+  <div class = "option">TECHNOLOGY-STACK</div>
 </div>
 <div>
 </div>
