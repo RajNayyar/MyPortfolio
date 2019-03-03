@@ -2,4 +2,6 @@
 .chart-container{
     max-width: 900px;
     margin: 0 auto;
+    text-align: center;
+    border: 1px red;
 }

@@ -12,7 +12,10 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { SkillsChartComponent } from './skills-chart/skills-chart.component';
 import { SkillsTechnologyStackComponent } from './skills-technology-stack/skills-technology-stack.component';
-
+import { AppRoutingModule } from './app-routing.module';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import {MatTabsModule} from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,9 +29,16 @@ import { SkillsTechnologyStackComponent } from './skills-technology-stack/skills
     FooterComponent,
     SkillsChartComponent,
     SkillsTechnologyStackComponent
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatTabsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
