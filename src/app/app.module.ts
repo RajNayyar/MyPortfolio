@@ -29,7 +29,6 @@ import {MatTabsModule} from '@angular/material/tabs';
     FooterComponent,
     SkillsChartComponent,
     SkillsTechnologyStackComponent
-    
   ],
   imports: [
     BrowserModule,

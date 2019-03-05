@@ -1,4 +1,4 @@
-
+/* 
 .option{
     width: 33%;
     margin: 0 auto;
@@ -24,20 +24,33 @@
     letter-spacing: 10px;
     color: silver;
 }
-h4{
-    letter-spacing: 10px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    margin: 0 auto;
-}
+
 .heading-container{
     text-align: center;
 
+} */
+.skills-heading-container{
+    text-align: center;
 }
-ng-template{
-    height: 100px;
+p{
+    letter-spacing: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 0 auto;
+    font-size: 30px;
 }
-.template-container{
-    height: 500px;
-    border: 1px solid;
+.template-container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 450px;
+    text-align: center;
+    margin: 30px auto;
 }
+  
+  .template-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .skills-container {
+      width: 70%;
+      margin: 0 auto;
+  }
