@@ -45,12 +45,13 @@ p{
     height: 450px;
     text-align: center;
     margin: 30px auto;
+    width: 70%;
 }
   
   .template-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(155, 18, 18, 0.356);
   }
   .skills-container {
-      width: 70%;
+      width: 80%;
       margin: 0 auto;
   }
